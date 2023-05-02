@@ -1,0 +1,39 @@
+{
+  "name": "@xapp/postext-lambda",
+  "repository": "https://github.com/xapp-ai/posttext-lambda",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "types": "lib/index",
+  "typings": "lib/index",
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": "^12 || ^14 || ^16"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "aws-sdk": "2.1347.0",
+    "typescript": "4.9.5"
+  },
+  "scripts": {
+    "build": "tsc index.ts",
+    "prepackage": "tsc index.ts && yarn install --production --ignore-engines",
+    "package": "zip -r posttext.zip . -x *.zip -x __test__ -x *.ts",
+    "postpackage": "rm -r node_modules && find . -name \"*.js\" -type f -delete"
+  },
+  "dependencies": {
+    "@xapp/stentor-lex-lib": "1.45.64",
+    "stentor-constants": "1.57.115",
+    "stentor-interaction-model": "1.57.116",
+    "stentor-locales": "1.57.116",
+    "stentor-models": "1.57.115",
+    "stentor-request": "1.57.116",
+    "stentor-utils": "1.57.116"
+  }
+}
