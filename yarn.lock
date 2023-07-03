@@ -36,20 +36,20 @@
   resolved "https://registry.yarnpkg.com/@xapp/patterns/-/patterns-2.0.1.tgz#e453467abf994306da315c355d7b7519b06dc796"
   integrity sha512-mG+RK8ihW/1f6K3Nx2I7ADXQrouLLPUftwpcqgl6jjUWNI9P99KU1O/iXDnCohJQQ3fcRY8ueTTsksXm2lplEw==
 
-"@xapp/stentor-alexa-lib@1.45.75":
-  version "1.45.75"
-  resolved "https://registry.yarnpkg.com/@xapp/stentor-alexa-lib/-/stentor-alexa-lib-1.45.75.tgz#2e8b2b9ef98cfc548da51554da3c42de2b262ea4"
-  integrity sha512-vE4c83XYZ157NPXO3hh6COiaw02lceF/F1PHvyusipWPrSK0RgDI1jnL+6A6ftV61w3s2y0imE0pvCSoKrC21Q==
+"@xapp/stentor-alexa-lib@1.46.2":
+  version "1.46.2"
+  resolved "https://registry.yarnpkg.com/@xapp/stentor-alexa-lib/-/stentor-alexa-lib-1.46.2.tgz#25185ded185ba8f6d28e7c2e3b97fb1f62d81bfb"
+  integrity sha512-8HB+AvjEHVpSx5bPj0RbcheiHKKNsbQ94Dgf5l5E8kll4e2pAf9WsWKvCcpFTUlSrq2+DiM8C84hkFHXEwsBnQ==
   dependencies:
-    ask-sdk-model "1.69.0"
+    ask-sdk-model "1.79.0"
     lodash.invert "4.3.0"
 
-"@xapp/stentor-lex-lib@1.45.75":
-  version "1.45.75"
-  resolved "https://registry.yarnpkg.com/@xapp/stentor-lex-lib/-/stentor-lex-lib-1.45.75.tgz#7f5cd21f57ebcce79b84f1b4b0dc549816d85ea7"
-  integrity sha512-hog0rNQ0vb8APTgLokNnTpVUFCRQe6gMB43RQrELEbIklI7pfHO0EDzul3p4zAfKeXL3rWdksXCvVBe3kPhTwA==
+"@xapp/stentor-lex-lib@1.46.2":
+  version "1.46.2"
+  resolved "https://registry.yarnpkg.com/@xapp/stentor-lex-lib/-/stentor-lex-lib-1.46.2.tgz#aaa104b9f37062661971a30b09c9690a90601caf"
+  integrity sha512-awFkJwhx6QudNPgKvMe1gdZjlcgw4fAlqizIW7DwVItLwrX/ej19VbP6Hv2vw6iQuKZwVg52xoUyRHky6m2SoQ==
   dependencies:
-    "@xapp/stentor-alexa-lib" "1.45.75"
+    "@xapp/stentor-alexa-lib" "1.46.2"
     lodash.merge "4.6.2"
 
 ansi-styles@^4.1.0:
@@ -59,10 +59,10 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-ask-sdk-model@1.69.0:
-  version "1.69.0"
-  resolved "https://registry.yarnpkg.com/ask-sdk-model/-/ask-sdk-model-1.69.0.tgz#f9744e5cb5624de66256062a68a48d98ed0681b5"
-  integrity sha512-Hkdfu60udQ3J1IM0EgxWS7CA0lYCvZwHykk/wfziYie/2c8ZfGeryjdDlJD/ik5JbhPOFmI6bgsQzi9k654MeQ==
+ask-sdk-model@1.79.0:
+  version "1.79.0"
+  resolved "https://registry.yarnpkg.com/ask-sdk-model/-/ask-sdk-model-1.79.0.tgz#1b6474ccc734dd0f08ad915e38a2fcdcb5f77fad"
+  integrity sha512-OUiQEKyYJ5tHyDLzl8IczHGO1HO1mazgCHg2Q7sGbbOq1G5ALWsJz5RR65HHn7FjSUbcM9h57TMhXm0wzIeyQg==
 
 async@^3.2.3:
   version "3.2.4"
