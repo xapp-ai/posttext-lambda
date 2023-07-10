@@ -663,10 +663,10 @@ stentor-logger@1.57.116:
     stentor-utils "1.57.116"
     winston "3.8.2"
 
-stentor-models@1.57.115:
-  version "1.57.115"
-  resolved "https://registry.yarnpkg.com/stentor-models/-/stentor-models-1.57.115.tgz#5e9b2ccfd76d3ca36a4086119b84348886a63585"
-  integrity sha512-aEfRuUA0Zj3HbstOi/FHA9KwOmh3yK9gMgvslHuAQDaZ5Scq/FRXrTcyIQ4mWxie2nEngrS4eCiZpO2Cf9lxVQ==
+stentor-models@1.57.184:
+  version "1.57.184"
+  resolved "https://registry.yarnpkg.com/stentor-models/-/stentor-models-1.57.184.tgz#25c48ef0114e5ff94e33f2555ba30d1a77ada87a"
+  integrity sha512-f388jezSOIDN6BIlO6b79dMwYQLSgAVe41SBsfrXon4huCiEqhOxe35nr1vtbELTk8cFZJdkcHc9g4DBe2ohcw==
   dependencies:
     "@xapp/patterns" "2.0.1"
 
