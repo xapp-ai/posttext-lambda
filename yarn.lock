@@ -16,6 +16,16 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
+"@jsep-plugin/assignment@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@jsep-plugin/assignment/-/assignment-1.2.1.tgz#07277bdd7862451a865d391e2142efba33f46c9b"
+  integrity sha512-gaHqbubTi29aZpVbBlECRpmdia+L5/lh2BwtIJTmtxdbecEyyX/ejAOg7eQDGNvGOUmPY7Z2Yxdy9ioyH/VJeA==
+
+"@jsep-plugin/regex@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@jsep-plugin/regex/-/regex-1.0.3.tgz#3aeaa2e5fa45d89de116aeafbfa41c95935b7f6d"
+  integrity sha512-XfZgry4DwEZvSFtS/6Y+R48D7qJYJK6R9/yJFyUFHCIUMEEHuJ4X95TDgJp5QkmzfLYvapMPzskV5HpIDrREug==
+
 "@types/node@18.15.11":
   version "18.15.11"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
@@ -30,6 +40,11 @@
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/@types/xmldoc/-/xmldoc-1.1.6.tgz#8fe6e25dd92ffde0b4d0dce6323b7bf564c8c520"
   integrity sha512-3qhte5iT9zpj3YtvxRhE74C+1qnRTjR+JZ26TdXuEXkagdFCBSlDm49+e7gMhvJwEqL53ReCiW/yg5JKaCzDlQ==
+
+"@types/xmldoc@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@types/xmldoc/-/xmldoc-1.1.9.tgz#d6609d823c8f15f913b9d5274324dc1014a53b53"
+  integrity sha512-HLwIAudQ9xedPOK9rKd7gSHYzM5qtWOzae9z5tM7dRDR1hWeNlFSejfnxFMIv06mm2LmtX+pzVQ4GN86vf/b3g==
 
 "@xapp/patterns@2.0.1":
   version "2.0.1"
@@ -140,6 +155,13 @@ chrono-node@2.6.3:
   dependencies:
     dayjs "^1.10.0"
 
+chrono-node@2.7.7:
+  version "2.7.7"
+  resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.7.7.tgz#d0e66f1a33f4c3f4ff75f24eee251a7dc9b42d60"
+  integrity sha512-p3S7gotuTPu5oqhRL2p1fLwQXGgdQaRTtWR3e8Di9P1Pa9mzkK5DWR5AWBieMUh2ZdOnPgrK+zCrbbtyuA+D/Q==
+  dependencies:
+    dayjs "^1.10.0"
+
 clj-fuzzy@^0.3.2:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/clj-fuzzy/-/clj-fuzzy-0.3.3.tgz#b1e5343091c5202dbc52532863e1c4a78457f03d"
@@ -202,6 +224,11 @@ date-fns@2.29.3:
   version "2.29.3"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
   integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
+
+date-fns@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-4.1.0.tgz#64b3d83fff5aa80438f5b1a633c2e83b8a1c2d14"
+  integrity sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==
 
 dayjs@^1.10.0:
   version "1.11.7"
@@ -340,6 +367,11 @@ html-entities@2.3.3:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-2.3.3.tgz#117d7626bece327fc8baace8868fa6f5ef856e46"
   integrity sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==
 
+html-entities@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-2.5.2.tgz#201a3cf95d3a15be7099521620d19dfb4f65359f"
+  integrity sha512-K//PSRMQk4FZ78Kyau+mZurHn3FH0Vwr+H36eE0rPbeYkRRi9YxceYPhuN60UwWorxyKHhqoAJl2OFKa4BVtaA==
+
 htmlparser2@^8.0.0:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-8.0.2.tgz#f002151705b383e62433b5cf466f5b716edaec21"
@@ -429,6 +461,20 @@ jmespath@0.16.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
   integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
 
+jsep@^1.3.9:
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/jsep/-/jsep-1.3.9.tgz#8ce42df80ee9c1b39e52d0dd062a465342f35440"
+  integrity sha512-i1rBX5N7VPl0eYb6+mHNp52sEuaS2Wi8CDYx1X5sn9naevL78+265XJqy1qENEk7mRKwS06NHpUqiBwR7qeodw==
+
+jsonpath-plus@10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/jsonpath-plus/-/jsonpath-plus-10.1.0.tgz#e8724c721ac60ff2db667066131b1a2c992ffcf0"
+  integrity sha512-gHfV1IYqH8uJHYVTs8BJX1XKy2/rR93+f8QQi0xhx95aCiXn1ettYAd5T+7FU6wfqyDoX/wy0pm/fL3jOKJ9Lg==
+  dependencies:
+    "@jsep-plugin/assignment" "^1.2.1"
+    "@jsep-plugin/regex" "^1.0.3"
+    jsep "^1.3.9"
+
 jsonpath-plus@7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/jsonpath-plus/-/jsonpath-plus-7.2.0.tgz#7ad94e147b3ed42f7939c315d2b9ce490c5a3899"
@@ -474,6 +520,11 @@ lodash.isstring@4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha512-0wJxfxH1wgO3GrbuP+dTTk7op+6L41QCXbGINEmD+ny/G/eCqGzxyCsh7159S+mgDDcoarnBw6PC1PS5+wUGgw==
 
+lodash.keys@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
+  integrity sha512-J79MkJcp7Df5mizHiVNpjoHXLi4HLjh9VLS/M7lQSGoQ+0oQ+lWEigREkqKyizPB1IawvQLLKY8mzEcm1tkyxQ==
+
 lodash.merge@4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
@@ -483,6 +534,16 @@ lodash.pull@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/lodash.pull/-/lodash.pull-4.1.0.tgz#60060cc6bd625b4d4567ec27dc45cd1be9eec012"
   integrity sha512-EM7CVTzXfkTyusQdN7mgGPh2ZfkKfQ5lA9U+X7NNDeEgKEaO65dB5Kh8+Ppap0X1wQOndPjKP/VVTis7hFvkzg==
+
+lodash.sumby@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.sumby/-/lodash.sumby-4.6.0.tgz#7d87737ddb216da2f7e5e7cd2dd9c403a7887346"
+  integrity sha512-DCF6ONVffD6cdnZzZ7Ewhl23AOvXAvwGTfabmj4+WWkX8nXvyklgLkT5IyGt3kxX5CgfvQgLgYRRvEDsi7jTOQ==
+
+lodash.union@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
+  integrity sha512-c4pB2CdGrGdjMKYLA+XiRDO7Y0PRQbm/Gzg8qMj+QH+pFVAoTp5sBpO0odL3FjoPCGjK96p6qsP+yQoiLoOBcw==
 
 logform@^2.3.2, logform@^2.4.0:
   version "2.5.1"
@@ -495,6 +556,16 @@ logform@^2.3.2, logform@^2.4.0:
     ms "^2.1.1"
     safe-stable-stringify "^2.3.1"
     triple-beam "^1.3.0"
+
+marked-xhtml@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/marked-xhtml/-/marked-xhtml-1.0.11.tgz#e20a922d862a5f9dc49d42a3fb02e6403981d2b5"
+  integrity sha512-2sIywINl8anbzErb0+FdMdCy2Rqqy8LCVuFULjDbbd6ekZvYJRI2vSPf265RGJH+zHqdu66aHx+HMPTxDb1UfA==
+
+marked@12.0.2:
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-12.0.2.tgz#b31578fe608b599944c69807b00f18edab84647e"
+  integrity sha512-qXUm7e/YKFoqFPYPa3Ukg9xlI5cyAtGmyEIzMfW//m6kXwCy2Ps9DYf5ioijFKQ8qyuscrHoY04iJGctu2Kg0Q==
 
 marked@4.3.0:
   version "4.3.0"
@@ -593,6 +664,18 @@ sanitize-html@2.10.0:
     parse-srcset "^1.0.2"
     postcss "^8.3.11"
 
+sanitize-html@2.13.1:
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-2.13.1.tgz#b4639b0a09574ab62b1b353cb99b1b87af742834"
+  integrity sha512-ZXtKq89oue4RP7abL9wp/9URJcqQNABB5GGJ2acW1sdO8JTVl92f4ygD7Yc9Ze09VAZhnt2zegeU0tbNsdcLYg==
+  dependencies:
+    deepmerge "^4.2.2"
+    escape-string-regexp "^4.0.0"
+    htmlparser2 "^8.0.0"
+    is-plain-object "^5.0.0"
+    parse-srcset "^1.0.2"
+    postcss "^8.3.11"
+
 sax@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
@@ -630,12 +713,24 @@ stentor-constants@1.57.115:
   resolved "https://registry.yarnpkg.com/stentor-constants/-/stentor-constants-1.57.115.tgz#a2507a7b27d96fac349e3886168446c49a142c0f"
   integrity sha512-IYqL56PXdXC/sFCO/1Io/VGYT8KsIIvfN3XVdlm8oajZJJ6NGS0FHpwAzjMgiIlazsNvhlPjrorah8aUAWKPqg==
 
+stentor-constants@1.59.125:
+  version "1.59.125"
+  resolved "https://registry.yarnpkg.com/stentor-constants/-/stentor-constants-1.59.125.tgz#1b2ccab96df910954f7bc22422fa7c89fc5f6c7f"
+  integrity sha512-mPIFrwQEJdKtynnHhIfCbIBBkl4zaXbc4TngRgzpE7DfpEOkwnC6rWbHSpbpCU7jI3bl5Fp4YaSNp9aaE2Xzjw==
+
 stentor-guards@1.57.115:
   version "1.57.115"
   resolved "https://registry.yarnpkg.com/stentor-guards/-/stentor-guards-1.57.115.tgz#7061cafa7c074ac99d9bee728135709905b97980"
   integrity sha512-y4hVGeuxOhsLfOnUcCsbscz/xmbyVe5O3hvjnOUA+D3kRWprhyAPGzDkFZ/JoymPpVosX5F4xvO+HDMoOqgcfQ==
   dependencies:
     stentor-constants "1.57.115"
+
+stentor-guards@1.59.125:
+  version "1.59.125"
+  resolved "https://registry.yarnpkg.com/stentor-guards/-/stentor-guards-1.59.125.tgz#53dd2500b9394c831251addf2030d20404b36777"
+  integrity sha512-RY7wHEvtLl5p2D2tDHiTrJmWLvuYUKAK8okF6Zrc2xQ38wHgb11m7b2XNlaKoQ5dFknFIooA6oFfgd6DQ4wYzw==
+  dependencies:
+    stentor-constants "1.59.125"
 
 stentor-interaction-model@1.57.116:
   version "1.57.116"
@@ -707,6 +802,33 @@ stentor-utils@1.57.116:
     stentor-constants "1.57.115"
     stentor-guards "1.57.115"
     winston "3.8.2"
+    words-to-numbers "1.5.1"
+    xmldoc "1.3.0"
+
+stentor-utils@1.59.126:
+  version "1.59.126"
+  resolved "https://registry.yarnpkg.com/stentor-utils/-/stentor-utils-1.59.126.tgz#d596caaa96250e0819fe36ddae147728a8a5337e"
+  integrity sha512-HucXk4UxM9eS+Xl3dxI8rWPqcvFq84ad9M+WMbRyIFpU/F+YRnPMwBp0KDDLzVkIWEhLMy1YcqlnWC3qPmix2w==
+  dependencies:
+    "@types/xmldoc" "1.1.9"
+    blueimp-md5 "2.19.0"
+    chrono-node "2.7.7"
+    date-fns "4.1.0"
+    dyno-item-size "0.3.3"
+    fuse.js "6.6.2"
+    html-entities "2.5.2"
+    jsonpath-plus "10.1.0"
+    lodash.keys "4.2.0"
+    lodash.sumby "4.6.0"
+    lodash.union "4.6.0"
+    marked "12.0.2"
+    marked-xhtml "1.0.11"
+    number-to-words "1.2.4"
+    numeral "2.0.6"
+    sanitize-html "2.13.1"
+    slugify "1.6.6"
+    stentor-constants "1.59.125"
+    stentor-guards "1.59.125"
     words-to-numbers "1.5.1"
     xmldoc "1.3.0"
 
