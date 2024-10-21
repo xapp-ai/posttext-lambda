@@ -28,7 +28,7 @@
     "postpackage": "rm -r node_modules && find . -name \"*.js\" -type f -delete"
   },
   "dependencies": {
-    "@xapp/stentor-lex-lib": "1.45.75",
+    "@xapp/stentor-lex-lib": "1.62.89",
     "stentor-constants": "1.57.115",
     "stentor-interaction-model": "1.57.116",
     "stentor-locales": "1.57.116",
