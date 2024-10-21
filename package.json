@@ -31,7 +31,7 @@
     "@xapp/stentor-lex-lib": "1.45.75",
     "stentor-constants": "1.57.115",
     "stentor-interaction-model": "1.57.116",
-    "stentor-locales": "1.57.116",
+    "stentor-locales": "1.59.126",
     "stentor-models": "1.57.115",
     "stentor-request": "1.57.116",
     "stentor-utils": "1.57.116"
