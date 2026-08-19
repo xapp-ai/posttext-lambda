@@ -36,6 +36,11 @@
   resolved "https://registry.yarnpkg.com/@xapp/patterns/-/patterns-2.0.1.tgz#e453467abf994306da315c355d7b7519b06dc796"
   integrity sha512-mG+RK8ihW/1f6K3Nx2I7ADXQrouLLPUftwpcqgl6jjUWNI9P99KU1O/iXDnCohJQQ3fcRY8ueTTsksXm2lplEw==
 
+"@xapp/patterns@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@xapp/patterns/-/patterns-2.0.3.tgz#d7b58a02182a1829e016044e398b53de15e7a3bd"
+  integrity sha512-6AZKYybixaI8//TFMmTgfe5xemmt54jB63t5TWdYsI0s1Q8uwiLnNvC8K/PEvVIBsUri9sGwtZ4MpoF9uHpwVg==
+
 "@xapp/stentor-alexa-lib@1.45.75":
   version "1.45.75"
   resolved "https://registry.yarnpkg.com/@xapp/stentor-alexa-lib/-/stentor-alexa-lib-1.45.75.tgz#2e8b2b9ef98cfc548da51554da3c42de2b262ea4"
@@ -663,12 +668,12 @@ stentor-logger@1.57.116:
     stentor-utils "1.57.116"
     winston "3.8.2"
 
-stentor-models@1.57.115:
-  version "1.57.115"
-  resolved "https://registry.yarnpkg.com/stentor-models/-/stentor-models-1.57.115.tgz#5e9b2ccfd76d3ca36a4086119b84348886a63585"
-  integrity sha512-aEfRuUA0Zj3HbstOi/FHA9KwOmh3yK9gMgvslHuAQDaZ5Scq/FRXrTcyIQ4mWxie2nEngrS4eCiZpO2Cf9lxVQ==
+stentor-models@1.79.0:
+  version "1.79.0"
+  resolved "https://registry.yarnpkg.com/stentor-models/-/stentor-models-1.79.0.tgz#1b261b1fc203ef21a13c6557eda183d4765febac"
+  integrity sha512-nBiRHuPTgpKb8LiHEaDL8DFb540zAuaprmNXHBxFsFd0eeEbgn1aCZI4DhXr4DZLmBp5Ph85CQhmVnZSA8H9jg==
   dependencies:
-    "@xapp/patterns" "2.0.1"
+    "@xapp/patterns" "2.0.3"
 
 stentor-request@1.57.116:
   version "1.57.116"
