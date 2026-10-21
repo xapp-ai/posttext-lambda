@@ -630,6 +630,11 @@ stentor-constants@1.57.115:
   resolved "https://registry.yarnpkg.com/stentor-constants/-/stentor-constants-1.57.115.tgz#a2507a7b27d96fac349e3886168446c49a142c0f"
   integrity sha512-IYqL56PXdXC/sFCO/1Io/VGYT8KsIIvfN3XVdlm8oajZJJ6NGS0FHpwAzjMgiIlazsNvhlPjrorah8aUAWKPqg==
 
+stentor-constants@1.74.8:
+  version "1.74.8"
+  resolved "https://registry.yarnpkg.com/stentor-constants/-/stentor-constants-1.74.8.tgz#d13bd2e27cda1da10380489faae621ac78c441b5"
+  integrity sha512-BkUTP/ifFIEsPjhKWfcvF/ZwV24T5RUcmjcTYpriY2SNV5O2BVS8mKRInMxruY0h2la/72ziQCLTc79RmKsowA==
+
 stentor-guards@1.57.115:
   version "1.57.115"
   resolved "https://registry.yarnpkg.com/stentor-guards/-/stentor-guards-1.57.115.tgz#7061cafa7c074ac99d9bee728135709905b97980"
